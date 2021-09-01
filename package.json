@@ -1,6 +1,6 @@
 {
-  "name": "airgap-sapling",
-  "version": "0.0.0",
+  "name": "@zarclays/zgap-sapling",
+  "version": "0.0.1",
   "private": true,
   "scripts": {
     "build": "lerna run build --stream",
@@ -10,6 +10,7 @@
     "bump:major": "lerna version --no-git-tag-version major --yes && ./scripts/version.sh --fix",
     "bump:minor": "lerna version --no-git-tag-version minor --yes && ./scripts/version.sh --fix",
     "bump:patch": "lerna version --no-git-tag-version patch --yes && ./scripts/version.sh --fix",
+    "bump:patch:win": "lerna version --no-git-tag-version patch --yes && %INIT_CWD%/scripts/version.sh --fix",
     "bump:beta": "lerna version --no-git-tag-version prerelease --preid beta --yes && ./scripts/version.sh --fix"
   },
   "devDependencies": {

@@ -1,7 +1,7 @@
 {
   "name": "@zarclays/sapling-wasm",
   "author": "Zarclays <info@zarclays.com>",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "homepage": "https://www.zarclays.com",
   "repository": {
     "type": "git",
